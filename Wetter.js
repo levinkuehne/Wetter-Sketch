@@ -1,25 +1,56 @@
 function setup() {
   createCanvas(500, 500);
-  background(100);
+  background("lightblue");
+  frameRate(20);
   
+    // Regenwolke
   
-
-   // Regenwolke
+  noStroke();
+  rect(340, 118, 80, 40);
   
-  rect();
   noStroke();
   fill("white");
-  circle(400, 100, 50);
+  circle(420, 105, 50);
   noFill();
   
   noStroke();
   fill("white");
-  circle(380, 90, 50);
+  circle(390, 100, 50);
   noFill();
   
   noStroke();
   fill("white");
   circle(360, 110, 50);
+  noFill();
+  
+  noStroke();
+  fill("white");
+  circle(335, 125, 50);
+  noFill();
+  
+  noStroke();
+  fill("white");
+  circle(435, 135, 50);
+  noFill();
+  
+  noStroke();
+  fill("white");
+  circle(420, 135, 50);
+  noFill();
+  
+  noStroke();
+  fill("white");
+  circle(345, 135, 50);
+  noFill();
+  
+  noStroke();
+  fill("white");
+  circle(370, 140, 50);
+  noFill();
+  
+  noStroke();
+  fill("white");
+  circle(390, 138, 50);
   noFill();
   
   // Sonne
@@ -39,12 +70,6 @@ function setup() {
     rotate(2 * PI / 8 * i);
   }
   
-  translate(120, 120);
-  
-  
-  
-  
- 
-  
-  
+  translate(-120, -120);
 }
+  
