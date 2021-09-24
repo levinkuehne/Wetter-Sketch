@@ -1,7 +1,8 @@
 function setup() {
   createCanvas(500, 500);
   background("lightblue");
-  frameRate(20);
+  frameRate(120);
+  
     // Regenbogen
     
     fill("red");
@@ -36,7 +37,7 @@ function setup() {
     circle(150,400, 75);
     noFill();
     
-    // Regenwolke
+     // Regenwolke
   
   noStroke();
   rect(340, 118, 80, 40);
@@ -85,14 +86,26 @@ function setup() {
   fill("white");
   circle(390, 138, 50);
   noFill();
+   
   
   // Gras
     fill("green");
     stroke("green");
     rect(0, 400, 500, 100);
-  
+    
+  // Pfütze
+    fill("blue");
+    ellipse(380, 400, 180, 50);
+    noFill();
+    
+    noStroke();
+    fill("lightblue");
+    rect(280, 349, 200, 50);
+    noFill();
+    
   // Sonne
 
+  noStroke();
   fill("yellow");
   circle(120, 120, 80);
   noFill();
@@ -117,7 +130,7 @@ function draw(){
   strokeWeight(2);
   
   let x = random(320,450);
-  let y = random(180, 350);
+  let y = random(165, 358);
   
    line(x,y,x,y + 40);
    
@@ -125,7 +138,7 @@ function draw(){
   strokeWeight(4);
   
   let x2 = random(320,450);
-  let y2 = random(180,350);
+  let y2 = random(165,358);
   
    line(x2,y2,x2,y2 + 40);
   
