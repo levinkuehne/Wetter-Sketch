@@ -93,6 +93,7 @@ function setup() {
   
   // Sonne
 
+  noStroke();
   fill("yellow");
   circle(120, 120, 80);
   noFill();
